@@ -187,8 +187,10 @@ footer {
 }
 
 .library-image{
-    width: 90%;
+    box-sizing: border-box;
+    width: 100%;
     height: auto;
+    border-radius: 8px;
 }
 
 @media (max-width: 700px) {
